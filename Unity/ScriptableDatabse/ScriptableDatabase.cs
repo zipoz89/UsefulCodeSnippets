@@ -24,7 +24,7 @@ namespace Game
         {
             return registeredIds[id];
         }
-#if UNITY_EDITOR
+
         [ContextMenu("Clear registered ids")]
         public void ClearRegistered()
         {
@@ -124,7 +124,6 @@ namespace Game
                 }
             }
         }
-#endif
     }
     
 #if UNITY_EDITOR   
